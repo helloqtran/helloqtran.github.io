@@ -2,15 +2,15 @@ body{
     font-family: 'Scope One', serif;
     background-color: #fffdf7;
     color: #313639;
-    margin: 75px;
+    margin: 10%;
 }
 
 div{
-    padding: 15px;
+    padding: 5%;
 }
 
 h1{
-    font-size: 72px;
+    font-size: 60px;
     line-height: 80%;
     padding-bottom: 30px;
 }
@@ -35,7 +35,7 @@ li{
     font-size: 16px;
     list-style-position: outside;
     text-indent: -1.4em;
-    padding-left: 4em;
+    padding-left: 3em;
 }
 
 a{
@@ -70,4 +70,8 @@ svg{
 
 .broken-highlight{
     background-color: #FFC107;
+}
+
+.small-highlight{
+    background-color: #ffecb3;
 }
