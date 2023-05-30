@@ -2,7 +2,7 @@ body{
     font-family: 'Scope One', serif;
     background-color: #fffdf7;
     color: #313639;
-    margin: 10%;
+    margin: 7% 10%;
 }
 
 div{
@@ -53,22 +53,6 @@ svg{
 }
 
 .highlight{
-    position: relative;
-}
-
-.highlight::before{
-    background-color: #FFC107;
-    content: "";
-    position: absolute;
-    width: calc(100% + 4px);
-    height: 80%;
-    left: -2px;
-    top: 3px;
-    z-index: -1;
-    transform: rotate(-1deg);
-}
-
-.broken-highlight{
     background-color: #FFC107;
 }
 
