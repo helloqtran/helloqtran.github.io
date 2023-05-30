@@ -10,13 +10,13 @@ div{
 }
 
 h1{
-    font-size: 60px;
+    font-size: 50px;
     line-height: 80%;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 .navbar{
-    margin: 0 3% 20% 3%;
+    margin: 0 3% 10% 3%;
     background-color: #fffdf7;
 }
 
