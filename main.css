@@ -1,0 +1,73 @@
+body{
+    font-family: 'Scope One', serif;
+    background-color: #fffdf7;
+    color: #313639;
+    margin: 75px;
+}
+
+div{
+    padding: 25px;
+}
+
+h1{
+    font-size: 72px;
+    line-height: 80%;
+    padding-bottom: 30px;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+#chinese{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#contact{
+    text-align: center;
+}
+
+li{
+    font-size: 16px;
+    list-style-position: outside;
+    text-indent: -1.4em;
+    padding-left: 4em;
+}
+
+a{
+    color: #3d4c51;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #313639;
+}
+
+svg{
+    width: 100%;
+    margin: 30px;
+}
+
+.highlight{
+    position: relative;
+}
+
+.highlight::before{
+    background-color: #FFC107;
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: 80%;
+    left: -2px;
+    top: 3px;
+    z-index: -1;
+    transform: rotate(-1deg);
+}
+
+.broken-highlight{
+    background-color: #FFC107;
+}
